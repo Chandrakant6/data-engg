@@ -6,7 +6,7 @@ import requests
 import sqlalchemy
 
 # --- CONFIG ---
-DB_URL = "postgresql+psycopg2://postgres:your_password@localhost:5432/data_engg"
+DB_URL = "postgresql+psycopg2://postgres:postgres@localhost:5432/data_engg"
 CUSTOMERS_API = "http://127.0.0.1:8000/customers?chunk=1"
 ITEMS_CSV = "data/items.csv"
 ORDERS_CSV = "data/orders.csv"
